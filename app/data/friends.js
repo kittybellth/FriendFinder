@@ -15,7 +15,7 @@ var friendArray = [
             5
         ]
     },{
-        name: "Gorilla",
+        name: "Godzilla",
         photo: "https://s-media-cache-ak0.pinimg.com/736x/35/4b/74/354b74b32462850ea51c6c3885aa48b5.jpg",
         scores: [
             1,
@@ -30,8 +30,8 @@ var friendArray = [
             1
         ]
     },{
-        name: "Godzilla",
-        photo: "http://3.bp.blogspot.com/_HQtcrTNmYL0/S4E8evdppdI/AAAAAAAAAC8/ORwTg8xZiHw/s320/Gros+plan+1933.jpg",
+        name: "Gorilla",
+        photo: "http://cdn.wallpapersafari.com/38/25/L43YGj.jpg",
         scores: [
             2,
             2,

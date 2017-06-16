@@ -5,7 +5,7 @@ module.exports = function(app) {
   app.get("/api/friends", function(req, res) {
     res.json(friendArray);
   });
-
+  
   app.post("/api/friends", function(req, res){
     var newScores = req.body.scores;
     calculate(newScores, res);
@@ -32,6 +32,8 @@ var calculate = function(newScores, res){
     console.log(minNum);
     for (var y = 0; y < numArr.length; y++){
         if (numArr[y] == minNum){
+
+            // Send the front end a response
             res.json(friendArray[y]);
             return;
             
